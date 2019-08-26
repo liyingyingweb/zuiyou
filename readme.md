@@ -26,6 +26,10 @@
 vue + vue-cli + vuex + vue-router + vue-axios + webpack + ES6 + fetch + sass + flex + svg + git
 </font>
 
+### ui 框架的整合
+
+framework7
+
   
 ### 项目运行
 
