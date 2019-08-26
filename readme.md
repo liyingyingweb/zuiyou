@@ -56,10 +56,15 @@ npm run build
 
 移动端扫描下方二维码：
 
+![](https://user-gold-cdn.xitu.io/2019/8/26/16ccb880eb2aece8?w=287&h=285&f=png&s=6471)
 
-pc端[演示]_
+pc端[演示]：
 
-可下载安装包_
+http://oano.cn/lyy/
+
+可下载安装包：
+
+https://service.dcloud.net.cn/build/download/10a1f4e0-c79f-11e9-bdfa-773c66c2828e
 
 
 ### 项目布局
