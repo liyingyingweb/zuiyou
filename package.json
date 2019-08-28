@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "cli": "^1.0.1",
     "core-js": "^2.6.5",
     "framework7": "^4.4.10",
     "framework7-icons": "^2.3.1",
@@ -14,6 +15,8 @@
     "lib-flexible": "^0.3.2",
     "postcss-pxtorem": "^4.0.1",
     "px2rem-loader": "^0.1.9",
+    "serve": "^11.1.0",
+    "service": "^0.1.4",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"

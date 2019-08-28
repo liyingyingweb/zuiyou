@@ -46,8 +46,7 @@
         </f7-link>
       </f7-toolbar>
 
-      <!-- Main view-->
-      <f7-view tab tab-active id="tab-zy" url="/"></f7-view>
+      <f7-view tab tab-active main id="tab-zy" url="/"></f7-view>
       <f7-view tab id="tab-dt" url="/dynamic/"></f7-view>
       <f7-view tab id="tab-fb" url="/release/"></f7-view>
       <f7-view tab id="tab-xx" url="/news/"></f7-view>

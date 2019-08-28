@@ -1,8 +1,8 @@
 <template>
   <f7-page name="发布">
     <div class="fabu-head">
-      <f7-link href="../dynamic/index.vue" class="external">
-        <i class="f7-icons add_round_fill fb-icon" back-link="Back">chevron_left</i>
+      <f7-link href="#">
+        <i class="f7-icons add_round_fill fb-icon">chevron_left</i>
       </f7-link>
       <f7-link class="fabu" popup-close>发布</f7-link>
       <textarea class="fb-txt" cols="30" rows="8" placeholder="我的快乐源泉"></textarea>
@@ -25,7 +25,7 @@
         <f7-link href="#" class="external">
           <i class="f7-icons add_round_fill footer-icon">mic_fill</i>
         </f7-link>
-         <f7-link href="#" class="external">
+        <f7-link href="#" class="external">
           <i class="f7-icons add_round_fill footer-icon">link</i>
         </f7-link>
         <f7-link href="#" class="external">
@@ -85,14 +85,14 @@ export default {};
     float: right;
   }
 }
-.fb-footer{
+.fb-footer {
   width: 100%;
   position: relative;
   bottom: -6rem;
   left: 0;
-  border-top: .00625rem solid #ccc;
+  border-top: 0.00625rem solid #ccc;
   background-color: white;
-  .footer-icon{
+  .footer-icon {
     color: #1c86ee;
   }
 }

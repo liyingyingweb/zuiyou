@@ -10,7 +10,7 @@
   >
     <div class="dt-navbar">
       <f7-link
-        href="http://www.baidu.com"
+        href="#"
         class="external"
         style="display:block;overflow:hidden;
     "
@@ -30,7 +30,7 @@
       <div class="page-content tab tab-active">
         <f7-card class="demo-facebook-card dt_card">
           <div class="demo-facebook-avatar" style="float:left;">
-            <a href="http://www.baidu.com" class="external">
+            <a href="#" class="external">
               <img width="40" height="40" src="../../assets/gz_logo1.png" alt class="dt_logo">
             </a>
           </div>
@@ -76,7 +76,7 @@
                 <f7-list-item v-for="(item, index) in items" :key="index" style="padding:0;">
                   <div class="dt_userinfo">
                     <div class="dt_userinfo_inner">
-                      <a href="http://www.baidu.com" class="external">
+                      <a href="#" class="external">
                         <img
                           width="40"
                           height="40"
@@ -169,7 +169,7 @@
                     </div>
 
                     <div class="dt_userinfo_inner">
-                      <a href="http://www.baidu.com" class="external">
+                      <a href="#" class="external">
                         <img
                           width="40"
                           height="40"
@@ -265,7 +265,7 @@
                     </div>
 
                     <div class="dt_userinfo_inner">
-                      <a href="http://www.baidu.com" class="external">
+                      <a href="#" class="external">
                         <img
                           width="40"
                           height="40"
@@ -451,6 +451,9 @@
           padding: 0.3125rem 0 0.3125rem 0;
           box-sizing: border-box;
           border-bottom: 5px solid #ededed;
+          span{
+            font-size: .375rem;
+          }
           .guanzhu1 {
             width: 1.8125rem;
             height: 0.875rem;
@@ -482,7 +485,7 @@
             padding-left: 1.375rem;
             box-sizing: border-box;
             > p {
-              font-size: 14px;
+              font-size: .3125rem;
             }
             .dianzan {
               margin-top: 0.3125rem;
@@ -506,6 +509,7 @@
               padding-left: 0.1875rem;
               span {
                 color: #4d4d4d;
+                font-size: .3125rem;
               }
               .user-icon3 {
                 color: #4d4d4d;
