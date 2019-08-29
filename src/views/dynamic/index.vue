@@ -9,12 +9,8 @@
     @infinite="loadMore"
   >
     <div class="dt-navbar">
-      <f7-link
-        href="#"
-        class="external"
-        style="display:block;overflow:hidden;
-    "
-      >
+      <f7-link href="#" class="external" style="display:block;overflow:hidden;
+    ">
         <img
           src="../../assets/ic_dt_navbar_zfjlogo.png"
           alt
@@ -451,8 +447,8 @@
           padding: 0.3125rem 0 0.3125rem 0;
           box-sizing: border-box;
           border-bottom: 5px solid #ededed;
-          span{
-            font-size: .375rem;
+          span {
+            font-size: 0.375rem;
           }
           .guanzhu1 {
             width: 1.8125rem;
@@ -485,7 +481,7 @@
             padding-left: 1.375rem;
             box-sizing: border-box;
             > p {
-              font-size: .3125rem;
+              font-size: 0.3125rem;
             }
             .dianzan {
               margin-top: 0.3125rem;
@@ -509,7 +505,7 @@
               padding-left: 0.1875rem;
               span {
                 color: #4d4d4d;
-                font-size: .3125rem;
+                font-size: 0.3125rem;
               }
               .user-icon3 {
                 color: #4d4d4d;

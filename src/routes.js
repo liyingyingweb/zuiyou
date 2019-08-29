@@ -7,6 +7,8 @@ import ReleaseIndexPage from './views/release/index.vue'
 import NewsIndexPage from './views/news/index.vue'
 import MyIndexPage from './views/my/index.vue'
 import PrivateLetterPage from './views/news/privateLetter.vue'
+import ExaminePage from './views/my/examine.vue'
+import RemindListPage from './views/news/remindList.vue'
 
 export default [{
         path: '/',
@@ -24,13 +26,22 @@ export default [{
         path: '/news/',
         component: NewsIndexPage,
         routes: [{
-            path: '/privateLetter/',
-            component: PrivateLetterPage,
-        }]
+                path: '/privateLetter/',
+                component: PrivateLetterPage,
+            },
+            {
+                path: '/remindList/',
+                component: RemindListPage,
+            }
+        ]
     },
     {
         path: '/my/',
         component: MyIndexPage,
+        routes: [{
+            path: '/examine/',
+            component: ExaminePage,
+        }]
     },
     {
         path: '/about/',

@@ -9,7 +9,7 @@
       <f7-nav-right>
         <f7-link icon="icon-bars" panel-open="right">
           <img
-            src="../../assets/icon_feed_follow.png"
+            src="../../assets/btn_profile_topbar_follow.png"
             alt
             width="38px"
             height="20px"

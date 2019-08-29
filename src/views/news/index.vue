@@ -26,7 +26,7 @@
           </div>
 
           <f7-list style="padding:0;margin:0;">
-            <f7-list-item link="#" header="Name" title="John Doe" after="Edit">
+            <f7-list-item link="/news/remindList/" header="Name" title="John Doe" after="Edit">
               <f7-icon slot="media" icon="demo-list-icon">
                 <img
                   src="../../assets/img_default_avatar_1.png"
@@ -77,7 +77,6 @@
               </f7-icon>
             </f7-list-item>
           </f7-list>
-
         </f7-block>
       </f7-tab>
       <f7-tab id="tab-sx" class="page-content" style="padding:0;margin:0;">
@@ -91,7 +90,7 @@
               <span class="feiji-date">08/20</span>
             </a>
           </div>
-          
+
           <div class="sx-list">
             <f7-link href="/news/privateLetter/">
               <p class="sx-list-icon">
@@ -104,7 +103,6 @@
               <span class="feiji-date">08/21</span>
             </f7-link>
           </div>
-
         </f7-block>
       </f7-tab>
     </f7-tabs>

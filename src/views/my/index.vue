@@ -49,7 +49,7 @@
     </div>
 
     <f7-list inset style="padding:0;margin:0;">
-      <f7-list-item link="#" title="审核专区">
+      <f7-list-item link="/my/examine/" title="审核专区">
         <img slot="media" src="../../assets/ic_my_shentie.png" width="44">
       </f7-list-item>
       <f7-list-item link="#" title="游戏中心">
@@ -76,7 +76,7 @@
       <f7-list-item link="#" title="青少年模式" style="border-bottom:8px solid #ededed;">
         <img slot="media" src="../../assets/my_young_icon.png" width="44">
       </f7-list-item>
-       <f7-list-item link="#" title="夜间模式">
+      <f7-list-item link="#" title="夜间模式">
         <img slot="media" src="../../assets/ic_night_mode.png" width="44">
       </f7-list-item>
       <f7-list-item link="#" title="视频壁纸">
