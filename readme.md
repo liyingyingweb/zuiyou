@@ -52,7 +52,7 @@ npm run build
 
 ### 最终目标
 
-1、用node.js构建好应用到的接口
+1、用 node.js 构建好应用到的接口
 
 2、用清晰思路 将目标功能一一实现
 
@@ -62,13 +62,13 @@ npm run build
 
 ![](https://user-gold-cdn.xitu.io/2019/8/26/16ccb880eb2aece8?w=287&h=285&f=png&s=6471)
 
-pc端[演示]：
+pc 端演示：
 
 http://oano.cn/lyy/
 
 可下载安装包：
 
-https://service.dcloud.net.cn/build/download/7dec47d0-c9a3-11e9-a1ba-a546de994cef
+https://service.dcloud.net.cn/build/download/4ff7aa60-ca29-11e9-84a2-e92f6efc027e
 
 
 ### 项目布局
