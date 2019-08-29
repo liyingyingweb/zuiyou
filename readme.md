@@ -68,7 +68,7 @@ http://oano.cn/lyy/
 
 可下载安装包：
 
-https://service.dcloud.net.cn/build/download/10a1f4e0-c79f-11e9-bdfa-773c66c2828e
+https://service.dcloud.net.cn/build/download/7dec47d0-c9a3-11e9-a1ba-a546de994cef
 
 
 ### 项目布局
