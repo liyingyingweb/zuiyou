@@ -1,6 +1,8 @@
 <template>
   <f7-page
     name="最右"
+    ptr
+    @ptr:refresh="loadMore1"
     infinite
     :infinite-distance="50"
     :infinite-preloader="showPreloader"
@@ -38,9 +40,8 @@
                     </a>
                   </div>
                 </f7-card-header>
-                <f7-card-content>
-                  <p>What a nice photo i took yesterday!</p>
-                  <img src="../../assets/img_exception_musiclist_empty.png" width="100%">
+                <p class="head-wenzi">What a nice photo i took yesterday!</p>
+                <f7-card-content class="right-card-img1">
                   <f7-row tag="p">
                     <f7-col tag="span">
                       <f7-button raised class="mingxing"># 明星 ></f7-button>
@@ -102,9 +103,8 @@
                     </a>
                   </div>
                 </f7-card-header>
-                <f7-card-content>
-                  <p>What a nice photo i took yesterday!</p>
-                  <img src="../../assets/img_cover_guest.png" width="100%">
+                <p>What a nice photo i took yesterday!</p>
+                <f7-card-content class="right-card-img2">
                   <f7-row tag="p">
                     <f7-col tag="span">
                       <f7-button raised class="mingxing"># 明星 ></f7-button>
@@ -166,9 +166,8 @@
                     </a>
                   </div>
                 </f7-card-header>
-                <f7-card-content>
-                  <p>What a nice photo i took yesterday!</p>
-                  <img src="../../assets/img_default_avatar_5.png" width="100%">
+                <p>What a nice photo i took yesterday!</p>
+                <f7-card-content class="right-card-img3">
                   <f7-row tag="p">
                     <f7-col tag="span">
                       <f7-button raised class="mingxing"># 明星 ></f7-button>
@@ -230,9 +229,8 @@
                     </a>
                   </div>
                 </f7-card-header>
-                <f7-card-content>
-                  <p>What a nice photo i took yesterday!</p>
-                  <img src="../../assets/welcome_anim_header_pullrefresh_frame5.png" width="100%">
+                <p>What a nice photo i took yesterday!</p>
+                <f7-card-content class="right-card-img4">
                   <f7-row tag="p">
                     <f7-col tag="span">
                       <f7-button raised class="mingxing"># 明星 ></f7-button>
@@ -317,6 +315,69 @@
     margin: 0;
   }
 }
+
+.item-content {
+  width: 100%;
+  height: 100%;
+}
+.item-inner {
+  width: 100%;
+  height: 100%;
+}
+.card {
+  width: 100%;
+  .head-wenzi {
+    padding-left: 0.5rem;
+  }
+  .right-card-img1 {
+    .mingxing {
+      position: absolute;
+      bottom: -0.9375rem;
+    }
+    height: 9.375rem;
+    background: url(../../assets/img_cover_guest.png) no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+  }
+  .right-card-img2 {
+    .mingxing {
+      position: absolute;
+      bottom: -0.9375rem;
+    }
+    height: 9.375rem;
+    background: url(../../assets/img_default_avatar_4.png) no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+  }
+  .right-card-img3 {
+    .mingxing {
+      position: absolute;
+      bottom: -0.9375rem;
+    }
+    height: 9.375rem;
+    background: url(../../assets/gender_selector_female.png) no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+  }
+  .right-card-img4 {
+    .mingxing {
+      position: absolute;
+      bottom: -0.9375rem;
+    }
+    height: 9.375rem;
+    background: url(../../assets/img_default_avatar_1.png) no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+  }
+}
 </style>
 
 
@@ -380,6 +441,14 @@ export default {
         }
 
         self.allowInfinite = true;
+      }, 1000);
+    },
+    loadMore1(event, done) {
+      const self = this;
+
+      setTimeout(() => {
+        self.items.push({});
+        done();
       }, 1000);
     }
   }

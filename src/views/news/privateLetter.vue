@@ -1,5 +1,5 @@
 <template>
-  <f7-page>
+  <f7-page name="私信">
     <f7-navbar>
       <f7-nav-left back-link="Back"></f7-nav-left>
       <f7-nav-title class="biaoti">

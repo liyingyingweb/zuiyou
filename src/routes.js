@@ -9,6 +9,7 @@ import MyIndexPage from './views/my/index.vue'
 import PrivateLetterPage from './views/news/privateLetter.vue'
 import ExaminePage from './views/my/examine.vue'
 import RemindListPage from './views/news/remindList.vue'
+import SearchListPage from './views/news/searchList.vue'
 
 export default [{
         path: '/',
@@ -32,6 +33,10 @@ export default [{
             {
                 path: '/remindList/',
                 component: RemindListPage,
+            },
+            {
+                path: '/searchList/',
+                component: SearchListPage,
             }
         ]
     },

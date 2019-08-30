@@ -1,5 +1,5 @@
 <template>
-  <f7-page ptr @ptr:refresh="loadMore">
+  <f7-page name="提醒列表" ptr @ptr:refresh="loadMore">
     <f7-navbar>
       <f7-nav-left back-link="Back"></f7-nav-left>
       <f7-nav-title>
@@ -12,6 +12,7 @@
         :key="index"
         :title="item.title"
         :subtitle="item.author"
+        link="/news/searchList/"
       >
         <img slot="media" :src="item.cover" width="44">
       </f7-list-item>

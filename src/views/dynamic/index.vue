@@ -57,8 +57,6 @@
             <f7-link class="gz_link" tab-link="#tab-gc">广场</f7-link>
           </div>
 
-          <!-- <f7-list media-list>
-          <f7-list-item v-for="(item, index) in items" :key="index">-->
           <f7-tabs swipeable>
             <f7-tab id="tab-gz" class="page-content" tab-active>
               <f7-block style="text-align:center;">
@@ -357,8 +355,6 @@
               </f7-list>
             </f7-tab>
           </f7-tabs>
-          <!-- </f7-list-item>
-          </f7-list>-->
         </f7-card>
       </div>
     </div>
